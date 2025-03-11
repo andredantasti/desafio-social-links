@@ -62,7 +62,7 @@ img{
     font-weight: bold;
 }
 
-.botoes button{
+.botoes a{
     width: 304px;
     height: 45px;
     background-color: hsl(0, 0%, 20%);
@@ -73,13 +73,13 @@ img{
     align-items: center;
     cursor: pointer;
     font-size: var(--fonte-padrao);
-    color:var(--cor-padrao);
     font-weight: bold;
     border: none;
     transition-duration: 0.4s;
+    color: var(--cor-padrao);
 }
 
-.botoes button:hover{
+.botoes a:hover{
     background-color: var(--cor-esverdeado);
     color: black;
 }
@@ -89,7 +89,4 @@ img{
     font-size: 10px;
     flex-direction: column;
     margin-top: 30px;
-}
-a{
-    color: var(--cor-esverdeado);
 }
