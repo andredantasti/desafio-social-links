@@ -1,0 +1,24 @@
+@media(max-width: 375px){
+    body{
+        width: auto;
+    }
+    .container{
+        width: auto;
+        height: auto;
+        margin: 24px;
+    }
+
+    .botoes{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        
+    }
+    
+}
+
+@media(max-width: 310px){
+    .botoes button{
+        width: 150px;
+    }
+}
