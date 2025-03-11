@@ -54,15 +54,13 @@ img{
     font-weight: 150;
 }
 
-.profile h4{
+.profile .localidade{
     color: var(--cor-esverdeado);
     font-size: 14px;
     margin-bottom: 24px;
     margin-top: 4px;
+    font-weight: bold;
 }
-
-
-
 
 .botoes button{
     width: 304px;
